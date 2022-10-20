@@ -1,10 +1,8 @@
-import java.util.Scanner;
-
 public class PIRAMIDE {
-private static Scanner Leer = new Scanner(System.in);
+
     static void Ejercicio10() {
         System.out.print("Ingrese un número: ");
-        int numeroNiveles = Leer.nextInt();
+        int numeroNiveles =0;
         int numeroPosiciones = numeroNiveles * 2 -1;
         int posInicial = numeroNiveles;
         int posFinal = numeroNiveles;
